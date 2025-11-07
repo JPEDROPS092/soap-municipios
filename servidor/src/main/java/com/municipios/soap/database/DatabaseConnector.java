@@ -12,10 +12,10 @@ public class DatabaseConnector {
     private static final String DB_URL = "jdbc:mysql://localhost:3306/soap_ubs_db";
 
     // O utilizador que criámos no MySQL
-    private static final String DB_USER = "soap_user";
+    private static final String DB_USER = "Pedro";
 
-    // ⚠️ Altere para a senha que definiu para o 'soap_user'
-    private static final String DB_PASSWORD = "Gabriel72030.";
+    // ⚠️ Altere para a senha que definiu para o 'Pedro'
+    private static final String DB_PASSWORD = "admin";
 
     // ------------------------------------
 

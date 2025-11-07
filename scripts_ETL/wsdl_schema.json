@@ -1,0 +1,70 @@
+{
+    "services": {
+        "MunicipioWebServiceImplService": [
+            "MunicipioWebServiceImplPort"
+        ]
+    },
+    "operations": {
+        "listarMunicipiosPorUF": {
+            "input": [
+                {
+                    "name": "uf",
+                    "type": "string"
+                }
+            ],
+            "output": [
+                {
+                    "type": "ComplexType(None(return: {http://service.soap.municipios.com/}municipioArray))"
+                }
+            ]
+        },
+        "obterDadosPopulacionais": {
+            "input": [
+                {
+                    "name": "municipioId",
+                    "type": "int"
+                },
+                {
+                    "name": "municipioNome",
+                    "type": "string"
+                }
+            ],
+            "output": [
+                {
+                    "type": "ComplexType(None(return: {http://service.soap.municipios.com/}dadosPopulacionais))"
+                }
+            ]
+        },
+        "consultarCEP": {
+            "input": [
+                {
+                    "name": "cep",
+                    "type": "string"
+                }
+            ],
+            "output": [
+                {
+                    "type": "ComplexType(None(return: {http://service.soap.municipios.com/}endereco))"
+                }
+            ]
+        },
+        "listarUBSMunicipio": {
+            "input": [
+                {
+                    "name": "municipioId",
+                    "type": "int"
+                },
+                {
+                    "name": "municipioNome",
+                    "type": "string"
+                }
+            ],
+            "output": [
+                {
+                    "type": "ComplexType(None(return: {http://service.soap.municipios.com/}dadosUBS))"
+                }
+            ]
+        }
+    },
+    "schemas": {}
+}
