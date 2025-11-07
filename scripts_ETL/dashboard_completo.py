@@ -125,7 +125,8 @@ def listar_ubs_municipio(municipio_id, municipio_nome):
         'ubs': []
     }
     
-    for item in ret.findall('listaUbs/item'):
+    # CORREÇÃO: A estrutura XML retorna <listaUbs> diretamente, sem <item>
+    for item in ret.findall('listaUbs'):
         dados['ubs'].append({
             'nome': item.find('nome').text or '',
             'cnes': item.find('cnes').text or '',
