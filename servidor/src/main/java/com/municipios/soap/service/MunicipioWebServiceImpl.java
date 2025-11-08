@@ -246,6 +246,88 @@ public class MunicipioWebServiceImpl implements MunicipioWebService {
     }
 
     /**
+     * Lista estabelecimentos separados por tipo (UBS e Outros)
+     * Classifica baseado no nome do estabelecimento
+     */
+    @Override
+    public EstabelecimentosPorTipo listarEstabelecimentosPorTipo(int municipioId, String municipioNome) {
+        EstabelecimentosPorTipo resultado = new EstabelecimentosPorTipo();
+        List<UBS> listaUbs = new ArrayList<>();
+        List<UBS> listaOutros = new ArrayList<>();
+
+        // Converte o ID da API (7 dígitos) para o ID de 6 dígitos
+        String ibgeMunicipio6Digitos = String.valueOf(municipioId / 10);
+
+        String sqlTotais = "SELECT * FROM ubs_totais_municipio WHERE ibge_municipio = ?";
+        String sqlLista = "SELECT * FROM ubs_estabelecimentos WHERE ibge_municipio = ?";
+
+        try (Connection conn = DatabaseConnector.connect()) {
+
+            if (conn == null) {
+                System.err.println("Conexão com BD nula ao buscar estabelecimentos. Verifique o DatabaseConnector.");
+                return new EstabelecimentosPorTipo();
+            }
+
+            // 1. Buscar Totais
+            try (PreparedStatement pstmt = conn.prepareStatement(sqlTotais)) {
+                pstmt.setString(1, ibgeMunicipio6Digitos);
+                ResultSet rs = pstmt.executeQuery();
+                if (rs.next()) {
+                    resultado.setTotalMedicos(rs.getInt("total_medicos"));
+                    resultado.setTotalEnfermeiros(rs.getInt("total_enfermeiros"));
+                } else {
+                    resultado.setTotalMedicos(0);
+                    resultado.setTotalEnfermeiros(0);
+                }
+            }
+
+            // 2. Buscar e Classificar Estabelecimentos
+            try (PreparedStatement pstmt = conn.prepareStatement(sqlLista)) {
+                pstmt.setString(1, ibgeMunicipio6Digitos);
+                ResultSet rs = pstmt.executeQuery();
+
+                while (rs.next()) {
+                    UBS estabelecimento = new UBS();
+                    String nome = rs.getString("nome");
+                    
+                    estabelecimento.setCnes(rs.getString("cnes"));
+                    estabelecimento.setNome(nome);
+                    String endereco = String.format("%s - %s", 
+                        rs.getString("logradouro"), 
+                        rs.getString("bairro"));
+                    estabelecimento.setEndereco(endereco);
+                    estabelecimento.setCep(rs.getString("cep"));
+                    estabelecimento.setLatitude(String.valueOf(rs.getDouble("latitude")));
+                    estabelecimento.setLongitude(String.valueOf(rs.getDouble("longitude")));
+
+                    // Classificar por nome
+                    String nomeUpper = nome.toUpperCase();
+                    if (nomeUpper.contains("UBS") || 
+                        nomeUpper.contains("UNIDADE BASICA") || 
+                        nomeUpper.contains("UNIDADE BÁSICA")) {
+                        listaUbs.add(estabelecimento);
+                    } else {
+                        listaOutros.add(estabelecimento);
+                    }
+                }
+            }
+        } catch (SQLException e) {
+            System.err.println("Erro de SQL ao buscar estabelecimentos por tipo: " + e.getMessage());
+            e.printStackTrace();
+            return new EstabelecimentosPorTipo();
+        }
+
+        // Configurar resultado
+        resultado.setEstabelecimentosUBS(listaUbs);
+        resultado.setEstabelecimentosOutros(listaOutros);
+        resultado.setTotalUBS(listaUbs.size());
+        resultado.setTotalOutros(listaOutros.size());
+        resultado.setTotalGeral(listaUbs.size() + listaOutros.size());
+
+        return resultado;
+    }
+
+    /**
      * (Sem alterações)
      * Faz requisição HTTP GET e retorna o corpo da resposta
      */

@@ -1,0 +1,2605 @@
+{
+  "municipio": {
+    "id": "1302603",
+    "nome": "Manaus",
+    "ufNome": "Amazonas",
+    "ufSigla": "AM"
+  },
+  "demografia": {
+    "municipioId": "1302603",
+    "municipioNome": "Manaus",
+    "populacaoTotal": 2060744,
+    "populacaoHomens": 996198,
+    "populacaoMulheres": 1064546,
+    "faixa0a10": 225213,
+    "faixa11a20": 192615,
+    "faixa21a30": 245695,
+    "faixa40Mais": 1397221
+  },
+  "saude": {
+    "totalUbs": 258,
+    "totalMedicos": 546,
+    "totalEnfermeiros": 471,
+    "ubs": [
+      {
+        "nome": "UBS CDPM I",
+        "cnes": "0493619",
+        "endereco": "RODOVIA BR 174 - KM 08",
+        "cep": "69048990",
+        "latitude": -2.90725631,
+        "longitude": -60.02980563,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS DE SAO RAIMUNDO",
+        "cnes": "2011751",
+        "endereco": "PRACA ISMAEL BENIGNO - SAO RAIMUNDO",
+        "cep": "69030000",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS CACILDA DE FREITAS",
+        "cnes": "2012928",
+        "endereco": "RUA RIO MARIE - SAO JOSE OPERARIO",
+        "cep": "69086010",
+        "latitude": -3.06087046,
+        "longitude": -59.95283371,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS HYLACE DE MIRANDA BRAGA",
+        "cnes": "2013576",
+        "endereco": "RUA 12 - ALVORADA III",
+        "cep": "69037000",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS S 03",
+        "cnes": "2014009",
+        "endereco": "RUA FORMOSA - FLORES",
+        "cep": "69058230",
+        "latitude": -3.04476505,
+        "longitude": -59.99527642,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS N 20",
+        "cnes": "2014041",
+        "endereco": "RUA GAL AURELIO DE AMORIM - CIDADE NOVA",
+        "cep": "69090753",
+        "latitude": -3.02921028,
+        "longitude": -59.99726451,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS S 48",
+        "cnes": "2014386",
+        "endereco": "RUA PIMENTA BUENO - SAO FRANCISCO",
+        "cep": "69063120",
+        "latitude": -3.10560953,
+        "longitude": -60.0007639,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS S 38",
+        "cnes": "2014556",
+        "endereco": "RUA FRANCISCO DUARTE - JAPIIM",
+        "cep": "69078090",
+        "latitude": -3.10566371,
+        "longitude": -59.98636986,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS S 45",
+        "cnes": "2014580",
+        "endereco": "RUA BENTO BRASIL - RAIZ",
+        "cep": "69068750",
+        "latitude": -3.12077542,
+        "longitude": -59.99766015,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS L 21",
+        "cnes": "2014912",
+        "endereco": "RUA MARAPATA - JORGE TEIXEIRA",
+        "cep": "69088068",
+        "latitude": -3.02300363,
+        "longitude": -59.92153972,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS L 23",
+        "cnes": "2014920",
+        "endereco": "RUA RIO ANACORA - SAO JOSE OPERARIO",
+        "cep": "69085170",
+        "latitude": -3.07276283,
+        "longitude": -59.95781697,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS O 29",
+        "cnes": "2015587",
+        "endereco": "RUA VEIGA MIRANDA - SANTO ANTONIO",
+        "cep": "69029340",
+        "latitude": -3.11452541,
+        "longitude": -60.04470207,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS O 05",
+        "cnes": "2015714",
+        "endereco": "RUA JASMIM IMPERADOR - REDENCAO",
+        "cep": "69047560",
+        "latitude": -3.05029865,
+        "longitude": -60.04619267,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS O 06",
+        "cnes": "2015722",
+        "endereco": "RUA ANTURIO AMARELO - REDENCAO",
+        "cep": "69047185",
+        "latitude": -3.05644865,
+        "longitude": -60.03463326,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS O 08",
+        "cnes": "2015749",
+        "endereco": "RUA DOUTOR GENTIL BITTECOURT - ALVORADA",
+        "cep": "69042120",
+        "latitude": -3.07472479,
+        "longitude": -60.05209511,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS O 09",
+        "cnes": "2015757",
+        "endereco": "RUA ITIRUCU - ALVORADA",
+        "cep": "69042073",
+        "latitude": -3.07819567,
+        "longitude": -60.05632281,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS UPP",
+        "cnes": "5665795",
+        "endereco": "ESTRADA DO PURAQUEQUARA KM 08 - PURAQUEQUARA",
+        "cep": "69050060",
+        "latitude": -3.07709663,
+        "longitude": -59.88778996,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS L 49",
+        "cnes": "7675275",
+        "endereco": "RUA LICURI - DISTRITO INDUSTRIAL",
+        "cep": "69007750",
+        "latitude": -3.04755425,
+        "longitude": -59.89354311,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS COMPAJ",
+        "cnes": "9721274",
+        "endereco": "RODOVIA BR 174 - KM 08",
+        "cep": "69048990",
+        "latitude": -2.9066011,
+        "longitude": -60.02330919,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS IPAT",
+        "cnes": "9721290",
+        "endereco": "RODOVIA BR 174 - KM 08",
+        "cep": "69048990",
+        "latitude": -2.9059027,
+        "longitude": -60.0330478,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS CDPM II",
+        "cnes": "9721304",
+        "endereco": "RODOVIA BR 174 - KM 8",
+        "cep": "69048990",
+        "latitude": -2.90447908,
+        "longitude": -60.02438779,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS ANNA BARRETO PEREIRA",
+        "cnes": "9783229",
+        "endereco": "AVENIDA AUTAZ MIRIM - JORGE TEIXEIRA",
+        "cep": "69088245",
+        "latitude": -3.0566738,
+        "longitude": -59.9476456,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS DR ANTONIO REIS",
+        "cnes": "9783245",
+        "endereco": "RUA ESCANDINAVA - SAO LAZARO",
+        "cep": "69073524",
+        "latitude": -3.0552486,
+        "longitude": -59.9287252,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS CASTELO BRANCO",
+        "cnes": "9783253",
+        "endereco": "RUA DO COMERCIO - PARQUE 10 DE NOVEMBR",
+        "cep": "69055000",
+        "latitude": -3.0552486,
+        "longitude": -59.9287252,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS DR ANTONIO COMTE TELLES",
+        "cnes": "9783342",
+        "endereco": "RUA BARREIRINHA - SAO JOSE OPERARIO",
+        "cep": "69086390",
+        "latitude": -3.0700769,
+        "longitude": -59.9247625,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS DR DJALMA BATISTA",
+        "cnes": "9783369",
+        "endereco": "RUA TEOTONIO VILELA - COMPENSA",
+        "cep": "69035550",
+        "latitude": -3.1069269,
+        "longitude": -60.0616214,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS DR RAIMUNDO FRANCO DE SA",
+        "cnes": "9783377",
+        "endereco": "RUA VIRGILIO FERREIRA - NOVA ESPERANCA",
+        "cep": "69037585",
+        "latitude": -3.0797272,
+        "longitude": -60.0572565,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS DR JOSE ANTONIO DA SILVA",
+        "cnes": "9783385",
+        "endereco": "RUA GRUMIXAVA - MONTE DAS OLIVEIRAS",
+        "cep": "69092500",
+        "latitude": -3.102,
+        "longitude": -60.025,
+        "tipo": "UBS"
+      }
+    ],
+    "totalEstabelecimentos": 258,
+    "totalSomenteUbs": 28,
+    "totalNaoUbs": 230,
+    "todosEstabelecimentos": [
+      {
+        "nome": "USF CARMEN NICOLAU",
+        "cnes": "0115681",
+        "endereco": "RUA SANTA TEREZA DAVILA - LAGO AZUL",
+        "cep": "69059664",
+        "latitude": -2.97438092,
+        "longitude": -60.00901937,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF O 53",
+        "cnes": "0258490",
+        "endereco": "RUA PERIMETRAL DUQUE DE CAXIAS - TARUMA",
+        "cep": "69041105",
+        "latitude": -3.019067,
+        "longitude": -60.044192,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF SENADOR SEVERIANO NUNES",
+        "cnes": "0461091",
+        "endereco": "RUA DAS DALIAS - JORGE TEIXEIRA",
+        "cep": "69088181",
+        "latitude": -3.043452,
+        "longitude": -59.938406,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF DESEMBARGADOR FABIO COUTO VALLE",
+        "cnes": "0461156",
+        "endereco": "AVENIDA BRIGADEIRO HILARIO GURJAO - JORGE TEIXEIRA",
+        "cep": "69088480",
+        "latitude": -3.033674,
+        "longitude": -59.932606,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF PROFESSOR CARLSON GRACIE",
+        "cnes": "0461172",
+        "endereco": "AVENIDA CURACAO - NOVA CIDADE",
+        "cep": "69097235",
+        "latitude": -2.99162328,
+        "longitude": -59.9850856,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "UBS CDPM I",
+        "cnes": "0493619",
+        "endereco": "RODOVIA BR 174 - KM 08",
+        "cep": "69048990",
+        "latitude": -2.90725631,
+        "longitude": -60.02980563,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "USF N 60",
+        "cnes": "0827681",
+        "endereco": "BR 174 KM 02 - LAGO AZUL",
+        "cep": "69019410",
+        "latitude": -2.96362773,
+        "longitude": -60.02421706,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF JAPIIM",
+        "cnes": "2011735",
+        "endereco": "RUA CARPINTEIRO PERES JUNIOR - JAPIIM",
+        "cep": "69077292",
+        "latitude": -3.11339583,
+        "longitude": -59.98325703,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF DR JOSE RAYOL DOS SANTOS",
+        "cnes": "2011743",
+        "endereco": "AVENIDA CONSTANTINO NERY - CHAPADA",
+        "cep": "69050001",
+        "latitude": -3.08756746,
+        "longitude": -60.02678066,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "UBS DE SAO RAIMUNDO",
+        "cnes": "2011751",
+        "endereco": "PRACA ISMAEL BENIGNO - SAO RAIMUNDO",
+        "cep": "69030000",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "USF MORRO DA LIBERDADE",
+        "cnes": "2011778",
+        "endereco": "RUA DONA MIMI - MORRO DA LIBERDADE",
+        "cep": "69074760",
+        "latitude": -3.13545296,
+        "longitude": -60.00001722,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF AJURICABA",
+        "cnes": "2011786",
+        "endereco": "AVENIDA LESTE - ALVORADA",
+        "cep": "69046020",
+        "latitude": -3.06208257,
+        "longitude": -60.03926633,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF BAIRRO DA PAZ",
+        "cnes": "2011794",
+        "endereco": "RUA COMANDANTE PAULO VARELLA - DA PAZ",
+        "cep": "69048120",
+        "latitude": -3.05908943,
+        "longitude": -60.03207851,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF S 08",
+        "cnes": "2011808",
+        "endereco": "RUA CARLOS DRUMMOND DE ANDRADE - JAPIIM",
+        "cep": "69077778",
+        "latitude": -3.10272598,
+        "longitude": -59.9645307,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF NOVA ESPERANCA",
+        "cnes": "2011816",
+        "endereco": "RUA NOVA ESPERANCA - COLONIA ANTONIO ALEI",
+        "cep": "69008110",
+        "latitude": -3.08775462,
+        "longitude": -59.88892078,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF MEGUMO KADO",
+        "cnes": "2011867",
+        "endereco": "RUA INOCENCIO DE ARAUJO - EDUCANDOS",
+        "cep": "69070100",
+        "latitude": -3.14293179,
+        "longitude": -60.01433979,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF GERALDO MAGELA",
+        "cnes": "2011921",
+        "endereco": "RUA RIO ENVIRA - ARMANDO MENDES",
+        "cep": "69089130",
+        "latitude": -3.08891375,
+        "longitude": -59.9425679,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF LUIZ MONTENEGRO",
+        "cnes": "2011948",
+        "endereco": "RUA BERLIM - PLANALTO",
+        "cep": "69045040",
+        "latitude": -3.07486881,
+        "longitude": -60.06423973,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF REDENCAO",
+        "cnes": "2011956",
+        "endereco": "RUA OLINDA - REDENCAO",
+        "cep": "69047428",
+        "latitude": -3.0541783,
+        "longitude": -60.04624682,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "POLICLINICA MANAUS",
+        "cnes": "2012227",
+        "endereco": "AV LEONARDO MALCHER - PRACA 14",
+        "cep": "69020070",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF FRANK ROSEMBERG CALDERON",
+        "cnes": "2012847",
+        "endereco": "RUA BOA ESPERANCA - CRESPO",
+        "cep": "69073150",
+        "latitude": -3.12840807,
+        "longitude": -59.99169548,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF ALMIR PEDREIRA",
+        "cnes": "2012863",
+        "endereco": "RUA LAGOA VERDE - CRESPO",
+        "cep": "69073169",
+        "latitude": -3.1384552,
+        "longitude": -59.9867812,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF LOURENCO BORGHI",
+        "cnes": "2012871",
+        "endereco": "RUA CARLOS FILGUEIRAS - JAPIIM",
+        "cep": "69078480",
+        "latitude": -3.11562962,
+        "longitude": -59.98775517,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF FREI VALERIO DI CARLO",
+        "cnes": "2012898",
+        "endereco": "RUA RUFINO DE ELIZALDE - NOVO ISRAEL",
+        "cep": "69039540",
+        "latitude": -3.02541193,
+        "longitude": -60.01355556,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF O 43",
+        "cnes": "2012901",
+        "endereco": "RUA BELO HORIZONTE - COMPENSA",
+        "cep": "69036100",
+        "latitude": -3.09903309,
+        "longitude": -60.06176723,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "UBS CACILDA DE FREITAS",
+        "cnes": "2012928",
+        "endereco": "RUA RIO MARIE - SAO JOSE OPERARIO",
+        "cep": "69086010",
+        "latitude": -3.06087046,
+        "longitude": -59.95283371,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "USF BALBINA MESTRINHO",
+        "cnes": "2012995",
+        "endereco": "RUA CORONEL SILVERIO J NERY - CIDADE NOVA",
+        "cep": "69094170",
+        "latitude": -3.0417429,
+        "longitude": -59.980489,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF LUCIO FLAVIO DE VASCONCELOS DIAS",
+        "cnes": "2013002",
+        "endereco": "TRAVESSA COMANDANTE FERRAZ - BETANIA",
+        "cep": "69073060",
+        "latitude": -3.13062374,
+        "longitude": -59.99488022,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF L 42",
+        "cnes": "2013010",
+        "endereco": "RUA MARANGUA ACU - PURAQUEQUARA",
+        "cep": "69009300",
+        "latitude": -3.07788504,
+        "longitude": -59.8843102,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF DEODATO DE MIRANDA LEAO",
+        "cnes": "2013479",
+        "endereco": "AVENIDA PRESIDENTE DUTRA - GLORIA",
+        "cep": "69027615",
+        "latitude": -3.11998799,
+        "longitude": -60.0364706,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF SANTOS DUMONT",
+        "cnes": "2013487",
+        "endereco": "RUA COMANDANTE NORBERTO WON GAL - DA PAZ",
+        "cep": "69049100",
+        "latitude": -3.05202646,
+        "longitude": -60.03258207,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF SANTA LUZIA",
+        "cnes": "2013517",
+        "endereco": "RUA LEOPOLDO NEVES - SANTA LUZIA",
+        "cep": "69074510",
+        "latitude": -3.137315,
+        "longitude": -60.005997,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF THEOMARIO PINTO DA COSTA",
+        "cnes": "2013541",
+        "endereco": "RUA NAZARETH MESQUITA - PARQUE 10 DE NOVEMBR",
+        "cep": "69054501",
+        "latitude": -3.075151,
+        "longitude": -60.01611107,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "UBS HYLACE DE MIRANDA BRAGA",
+        "cnes": "2013576",
+        "endereco": "RUA 12 - ALVORADA III",
+        "cep": "69037000",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "USF MAUAZINHO",
+        "cnes": "2013800",
+        "endereco": "AVENIDA ARICA - MAUAZINHO",
+        "cep": "69075771",
+        "latitude": -3.124572,
+        "longitude": -59.94033487,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF THEODOMIRO GARRIDO",
+        "cnes": "2013843",
+        "endereco": "RUA JOAO VICENTE - COLONIA OLIVEIRA MAC",
+        "cep": "69070730",
+        "latitude": -3.14560874,
+        "longitude": -60.00606294,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF DR GILSON MOREIRA",
+        "cnes": "2013851",
+        "endereco": "RUA PROF LUIZA DO NASCIMENTO - ZUMBI DOS PALMARES",
+        "cep": "69084120",
+        "latitude": -3.07794425,
+        "longitude": -59.94682361,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF DR WALDIR BUGALHO DE MEDEIROS",
+        "cnes": "2013878",
+        "endereco": "RUA 7 DE SETEMBRO - JORGE TEIXEIRA",
+        "cep": "69088058",
+        "latitude": -3.026699,
+        "longitude": -59.92370265,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF MJ PM SALVIO BELOTA",
+        "cnes": "2013886",
+        "endereco": "RUA JOAO MONTE FUSCO - SANTA ETELVINA",
+        "cep": "69059500",
+        "latitude": -2.98422832,
+        "longitude": -60.01261485,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF MARIA LEONOR BRILHANTE",
+        "cnes": "2013894",
+        "endereco": "AVENIDA AUTAZ MIRIM - TANCREDO NEVES",
+        "cep": "69087215",
+        "latitude": -3.04787454,
+        "longitude": -59.94340669,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF DR RAYOL DOS SANTOS",
+        "cnes": "2013908",
+        "endereco": "RUA MANOEL BATISTA - SAO JORGE",
+        "cep": "69033410",
+        "latitude": -3.11221977,
+        "longitude": -60.03306073,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF DR ALFREDO CAMPOS",
+        "cnes": "2013916",
+        "endereco": "AVENIDA COSME FERREIRA - ZUMBI DOS PALMARES",
+        "cep": "69084425",
+        "latitude": -3.07523071,
+        "longitude": -59.93753986,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF VICENTE PALLOTTI",
+        "cnes": "2013924",
+        "endereco": "RUA APURINA - CENTRO",
+        "cep": "69020170",
+        "latitude": -3.12072096,
+        "longitude": -60.01963836,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF DOM MILTON CORREA",
+        "cnes": "2013932",
+        "endereco": "RUA TIRADENTES - SANTO AGOSTINHO",
+        "cep": "69036630",
+        "latitude": -3.09115618,
+        "longitude": -60.06270237,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF SAO FRANCISCO",
+        "cnes": "2013940",
+        "endereco": "RUA RODOLFO MONTEIRO MAIA - SAO FRANCISCO",
+        "cep": "69079440",
+        "latitude": -3.11379385,
+        "longitude": -60.005442,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 13",
+        "cnes": "2013959",
+        "endereco": "RUA DONA ZICA - CIDADE NOVA",
+        "cep": "69095285",
+        "latitude": -3.02382002,
+        "longitude": -59.97234674,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 14",
+        "cnes": "2013967",
+        "endereco": "RUA CANANEIA - CIDADE NOVA",
+        "cep": "69096145",
+        "latitude": -3.03469939,
+        "longitude": -59.97483827,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 16",
+        "cnes": "2013983",
+        "endereco": "RUA INARI - CIDADE NOVA",
+        "cep": "69095619",
+        "latitude": -3.01860206,
+        "longitude": -59.97787913,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF S 01",
+        "cnes": "2013991",
+        "endereco": "RUA FORMOSA - FLORES",
+        "cep": "69028120",
+        "latitude": -3.04507254,
+        "longitude": -59.99993622,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "UBS S 03",
+        "cnes": "2014009",
+        "endereco": "RUA FORMOSA - FLORES",
+        "cep": "69058230",
+        "latitude": -3.04476505,
+        "longitude": -59.99527642,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "USF N 17",
+        "cnes": "2014017",
+        "endereco": "RUA CHARLOTTE - CIDADE NOVA",
+        "cep": "69095415",
+        "latitude": -3.02043773,
+        "longitude": -59.97110544,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 19",
+        "cnes": "2014033",
+        "endereco": "RUA SAO JUDAS - COLONIA SANTO ANTONI",
+        "cep": "69093240",
+        "latitude": -3.02832401,
+        "longitude": -60.00233805,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "UBS N 20",
+        "cnes": "2014041",
+        "endereco": "RUA GAL AURELIO DE AMORIM - CIDADE NOVA",
+        "cep": "69090753",
+        "latitude": -3.02921028,
+        "longitude": -59.99726451,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "USF N 22",
+        "cnes": "2014068",
+        "endereco": "RUA DOUTOR ULISSES GUIMARAES - MONTE DAS OLIVEIRAS",
+        "cep": "69093751",
+        "latitude": -3.02064609,
+        "longitude": -59.99366631,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 23",
+        "cnes": "2014076",
+        "endereco": "RUA PIO IX - MONTE DAS OLIVEIRAS",
+        "cep": "69093099",
+        "latitude": -3.0197508,
+        "longitude": -59.99720156,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 24",
+        "cnes": "2014084",
+        "endereco": "RUA SOFONIAS - COLONIA TERRA NOVA",
+        "cep": "69093513",
+        "latitude": -3.0203433,
+        "longitude": -59.9919847,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 26",
+        "cnes": "2014106",
+        "endereco": "AVENIDA PRECIOSA - MONTE DAS OLIVEIRAS",
+        "cep": "69093115",
+        "latitude": -3.00564296,
+        "longitude": -59.99579831,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 27",
+        "cnes": "2014114",
+        "endereco": "RUA MACAUVEIRA - MONTE DAS OLIVEIRAS",
+        "cep": "69093833",
+        "latitude": -3.00564296,
+        "longitude": -59.99385526,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 28",
+        "cnes": "2014122",
+        "endereco": "RUA PROFESSORA AURORA REGO - SANTA ETELVINA",
+        "cep": "69017215",
+        "latitude": -2.98968121,
+        "longitude": -59.99597827,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 29",
+        "cnes": "2014130",
+        "endereco": "AVENIDA AMAZONINO MENDES - SANTA ETELVINA",
+        "cep": "69059260",
+        "latitude": -2.99165254,
+        "longitude": -60.0178549,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF O 01",
+        "cnes": "2014149",
+        "endereco": "AVENIDA PEIXE CAVALO - TARUMA ACU",
+        "cep": "69023000",
+        "latitude": -2.97602306,
+        "longitude": -60.02947109,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF S 05",
+        "cnes": "2014157",
+        "endereco": "RUA PICO DAS AGUAS - SAO GERALDO",
+        "cep": "69053060",
+        "latitude": -3.11304694,
+        "longitude": -60.02780503,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 31",
+        "cnes": "2014165",
+        "endereco": "AVENIDA CRISTA - COLONIA TERRA NOVA",
+        "cep": "69093437",
+        "latitude": -3.0199229,
+        "longitude": -60.0075384,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 34",
+        "cnes": "2014203",
+        "endereco": "RUA MARIA MOTA - COLONIA SANTO ANTONI",
+        "cep": "69093161",
+        "latitude": -3.03604709,
+        "longitude": -60.01022729,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF O 02",
+        "cnes": "2014211",
+        "endereco": "RUA DONA BEIJA - DA PAZ",
+        "cep": "69048300",
+        "latitude": -3.05927021,
+        "longitude": -60.03484026,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 39",
+        "cnes": "2014238",
+        "endereco": "RUA ITAMARAJU - CIDADE NOVA",
+        "cep": "69097780",
+        "latitude": -3.015618,
+        "longitude": -59.96755,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 40",
+        "cnes": "2014246",
+        "endereco": "TRAVESSA ARAXA - CIDADE NOVA",
+        "cep": "69090795",
+        "latitude": -3.0234134,
+        "longitude": -59.99621204,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 41",
+        "cnes": "2014254",
+        "endereco": "RUA IBITITA - NOVA CIDADE",
+        "cep": "69097242",
+        "latitude": -3.0118903,
+        "longitude": -59.9794485,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF S 53",
+        "cnes": "2014262",
+        "endereco": "RUA CELSO MACHADO - FLORES",
+        "cep": "69028326",
+        "latitude": -3.05753432,
+        "longitude": -60.0161108,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF S 11",
+        "cnes": "2014289",
+        "endereco": "AVENIDA LOURENCO DA SILVA BRAGA - CENTRO",
+        "cep": "69005015",
+        "latitude": -3.13627583,
+        "longitude": -60.01239645,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF S 19",
+        "cnes": "2014297",
+        "endereco": "TRAVESSA HEMETERIO CABRINHA - SAO LAZARO",
+        "cep": "69073346",
+        "latitude": -3.14007416,
+        "longitude": -59.99730925,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF S 20",
+        "cnes": "2014300",
+        "endereco": "RUA DOUTOR XAVIER ALBUQUERQUE - CRESPO",
+        "cep": "69073455",
+        "latitude": -3.13557049,
+        "longitude": -59.99103868,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF S 21",
+        "cnes": "2014319",
+        "endereco": "TRAVESSA ESTRELA DA TARDE - RAIZ",
+        "cep": "69068070",
+        "latitude": -3.13009923,
+        "longitude": -59.99793003,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF S 24",
+        "cnes": "2014327",
+        "endereco": "RUA ADELINO NETO - CRESPO",
+        "cep": "69073480",
+        "latitude": -3.12818193,
+        "longitude": -59.98617165,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF S 32",
+        "cnes": "2014351",
+        "endereco": "RUA GENERAL GLICERIO - CACHOEIRINHA",
+        "cep": "69065140",
+        "latitude": -3.12576737,
+        "longitude": -60.00886971,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF S 46",
+        "cnes": "2014378",
+        "endereco": "RUA CARDOSO NUNES - SAO FRANCISCO",
+        "cep": "69079250",
+        "latitude": -3.10973334,
+        "longitude": -60.00375067,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "UBS S 48",
+        "cnes": "2014386",
+        "endereco": "RUA PIMENTA BUENO - SAO FRANCISCO",
+        "cep": "69063120",
+        "latitude": -3.10560953,
+        "longitude": -60.0007639,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "USF S 50",
+        "cnes": "2014394",
+        "endereco": "RUA GABRIEL GONCALVES - ALEIXO",
+        "cep": "69060010",
+        "latitude": -3.09537232,
+        "longitude": -60.00413746,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF S 51",
+        "cnes": "2014408",
+        "endereco": "RUA ATAGAMITA - ALEIXO",
+        "cep": "69060050",
+        "latitude": -3.09946902,
+        "longitude": -60.00041304,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF S 04",
+        "cnes": "2014416",
+        "endereco": "BECO BRAGANCA - PRESIDENTE VARGAS",
+        "cep": "69025350",
+        "latitude": -3.11796246,
+        "longitude": -60.02993916,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF S 07",
+        "cnes": "2014424",
+        "endereco": "RUA XAVIER DE MENDONCA - NOSSA SENHORA APAREC",
+        "cep": "69010430",
+        "latitude": -3.12996313,
+        "longitude": -60.03024539,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF S 12",
+        "cnes": "2014440",
+        "endereco": "RUA SANTA ISABEL - CENTRO",
+        "cep": "69020150",
+        "latitude": -3.13042607,
+        "longitude": -60.01074841,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF S 10",
+        "cnes": "2014483",
+        "endereco": "RUA EMILIO MOREIRA - CENTRO",
+        "cep": "69020245",
+        "latitude": -3.13242328,
+        "longitude": -60.01551819,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF S 13",
+        "cnes": "2014491",
+        "endereco": "RUA UNIVERSAL - EDUCANDOS",
+        "cep": "69070490",
+        "latitude": -3.138175,
+        "longitude": -60.00876186,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF S 14",
+        "cnes": "2014505",
+        "endereco": "RUA DO LABOR - EDUCANDOS",
+        "cep": "69070410",
+        "latitude": -3.1434383,
+        "longitude": -60.0082491,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF S 35",
+        "cnes": "2014521",
+        "endereco": "TRAVESSA ACENTOR - PETROPOLIS",
+        "cep": "69078412",
+        "latitude": -3.10937156,
+        "longitude": -59.98897874,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "UBS S 38",
+        "cnes": "2014556",
+        "endereco": "RUA FRANCISCO DUARTE - JAPIIM",
+        "cep": "69078090",
+        "latitude": -3.10566371,
+        "longitude": -59.98636986,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "USF S 40",
+        "cnes": "2014564",
+        "endereco": "RUA FRAGATA - PETROPOLIS",
+        "cep": "69067110",
+        "latitude": -3.10749961,
+        "longitude": -59.99560003,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF S 42",
+        "cnes": "2014572",
+        "endereco": "RUA CAMPO GRANDE - JAPIIM",
+        "cep": "69067475",
+        "latitude": -3.10236284,
+        "longitude": -59.98593808,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "UBS S 45",
+        "cnes": "2014580",
+        "endereco": "RUA BENTO BRASIL - RAIZ",
+        "cep": "69068750",
+        "latitude": -3.12077542,
+        "longitude": -59.99766015,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "USF S 49",
+        "cnes": "2014602",
+        "endereco": "RUA RIO ABUNA - PETROPOLIS",
+        "cep": "69067470",
+        "latitude": -3.10529301,
+        "longitude": -59.99683252,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 42",
+        "cnes": "2014629",
+        "endereco": "RUA TRICOLOR - CIDADE DE DEUS",
+        "cep": "69099562",
+        "latitude": -3.01155655,
+        "longitude": -59.95644302,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 43",
+        "cnes": "2014637",
+        "endereco": "RUA DAS JACANAS - CIDADE DE DEUS",
+        "cep": "69037000",
+        "latitude": -3.02173019,
+        "longitude": -59.95012773,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF L 34",
+        "cnes": "2014645",
+        "endereco": "RUA CACHOEIRA DA PRATA - TANCREDO NEVES",
+        "cep": "69087689",
+        "latitude": -3.05999219,
+        "longitude": -59.93286288,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF L 36",
+        "cnes": "2014661",
+        "endereco": "RUA MANOEL FERREIRA NASCIMENTO - GILBERTO MESTRINHO",
+        "cep": "69086650",
+        "latitude": -3.06412456,
+        "longitude": -59.92544999,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF ARTHUR VIRGILIO FILHO",
+        "cnes": "2014742",
+        "endereco": "TRAVESSA IMBITUBA - NOVO ALEIXO",
+        "cep": "69099107",
+        "latitude": -3.04169846,
+        "longitude": -59.95668471,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF AUGIAS GADELHA",
+        "cnes": "2014750",
+        "endereco": "RUA MARIA DA GLORIA SANTOS - CIDADE NOVA",
+        "cep": "69095440",
+        "latitude": -3.02629117,
+        "longitude": -59.98244505,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF SAO VICENTE DE PAULO",
+        "cnes": "2014769",
+        "endereco": "RUA SAO TOME - SAO RAIMUNDO",
+        "cep": "69027540",
+        "latitude": -3.12245676,
+        "longitude": -60.03901668,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF L 24",
+        "cnes": "2014785",
+        "endereco": "RUA NESTOR PAZ - ZUMBI DOS PALMARES",
+        "cep": "69084621",
+        "latitude": -3.08288166,
+        "longitude": -59.94072403,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF DR PLATAO ARAUJO",
+        "cnes": "2014807",
+        "endereco": "RUA ANTONIO LISBOA - PURAQUEQUARA",
+        "cep": "69009085",
+        "latitude": -3.05911489,
+        "longitude": -59.84485638,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF L 29",
+        "cnes": "2014815",
+        "endereco": "RUA FLAVIO COSTA - COROADO",
+        "cep": "69080710",
+        "latitude": -3.09060634,
+        "longitude": -59.98637004,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF L 30",
+        "cnes": "2014823",
+        "endereco": "RUA DO FUTURO - COROADO",
+        "cep": "69080215",
+        "latitude": -3.0939795,
+        "longitude": -59.98257362,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF L 31",
+        "cnes": "2014831",
+        "endereco": "RUA ALAODIM - COROADO",
+        "cep": "69080300",
+        "latitude": -3.08670854,
+        "longitude": -59.98204296,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF L 32",
+        "cnes": "2014858",
+        "endereco": "RUA VINICIUS DE MORAES - COROADO",
+        "cep": "69082370",
+        "latitude": -3.08785699,
+        "longitude": -59.97847148,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF L 15",
+        "cnes": "2014882",
+        "endereco": "RUA JOSE ROMAO - SAO JOSE OPERARIO",
+        "cep": "69085288",
+        "latitude": -3.06309543,
+        "longitude": -59.95954456,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 12",
+        "cnes": "2014904",
+        "endereco": "AVENIDA ANTONIO SERGIO VIEIRALVES - NOVO ALEIXO",
+        "cep": "69098225",
+        "latitude": -3.05088659,
+        "longitude": -59.9567682,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "UBS L 21",
+        "cnes": "2014912",
+        "endereco": "RUA MARAPATA - JORGE TEIXEIRA",
+        "cep": "69088068",
+        "latitude": -3.02300363,
+        "longitude": -59.92153972,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS L 23",
+        "cnes": "2014920",
+        "endereco": "RUA RIO ANACORA - SAO JOSE OPERARIO",
+        "cep": "69085170",
+        "latitude": -3.07276283,
+        "longitude": -59.95781697,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "USF N 11",
+        "cnes": "2014939",
+        "endereco": "RUA ICEM - NOVO ALEIXO",
+        "cep": "69099260",
+        "latitude": -3.04293703,
+        "longitude": -59.94777888,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF L 26",
+        "cnes": "2014947",
+        "endereco": "RUA DAS HELICONIAS - JORGE TEIXEIRA",
+        "cep": "69088030",
+        "latitude": -3.04746705,
+        "longitude": -59.93391616,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 35",
+        "cnes": "2014955",
+        "endereco": "RUA SAO FELIX - CIDADE DE DEUS",
+        "cep": "69099312",
+        "latitude": -3.02294171,
+        "longitude": -59.94388474,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 36",
+        "cnes": "2014963",
+        "endereco": "RUA GUARABIRA - CIDADE DE DEUS",
+        "cep": "69099297",
+        "latitude": -3.01210465,
+        "longitude": -59.94647417,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF L 19",
+        "cnes": "2014998",
+        "endereco": "RUA LUIS PRESTES - COLONIA ANTONIO ALEI",
+        "cep": "69093280",
+        "latitude": -3.08827713,
+        "longitude": -59.89552723,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF L 16",
+        "cnes": "2015005",
+        "endereco": "RUA URUCUM - COROADO",
+        "cep": "69082645",
+        "latitude": -3.08214122,
+        "longitude": -59.9667767,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF L 18",
+        "cnes": "2015013",
+        "endereco": "RUA JOEVA - MAUAZINHO",
+        "cep": "69075721",
+        "latitude": -3.11517631,
+        "longitude": -59.94935874,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF L 37",
+        "cnes": "2015021",
+        "endereco": "RUA DOS ACAIZEIROS - GILBERTO MESTRINHO",
+        "cep": "69086485",
+        "latitude": -3.07155835,
+        "longitude": -59.92630409,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF L 13",
+        "cnes": "2015048",
+        "endereco": "RUA EUPALAMIDES - JORGE TEIXEIRA",
+        "cep": "69088716",
+        "latitude": -3.05111973,
+        "longitude": -59.92081804,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 01",
+        "cnes": "2015056",
+        "endereco": "RUA NOSSA SENHORA APARECIDA - CIDADE DE DEUS",
+        "cep": "69099265",
+        "latitude": -3.01476624,
+        "longitude": -59.94073673,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 03",
+        "cnes": "2015064",
+        "endereco": "RUA GUARIRI - CIDADE DE DEUS",
+        "cep": "69099445",
+        "latitude": -3.01570732,
+        "longitude": -59.95195409,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 05",
+        "cnes": "2015072",
+        "endereco": "AVENIDA PARAIBANOS - CIDADE DE DEUS",
+        "cep": "69099181",
+        "latitude": -3.02976031,
+        "longitude": -59.94046605,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 06",
+        "cnes": "2015080",
+        "endereco": "RUA BIAS FORTES - CIDADE DE DEUS",
+        "cep": "69099009",
+        "latitude": -3.02669484,
+        "longitude": -59.9528155,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 08",
+        "cnes": "2015102",
+        "endereco": "RUA IBIPETUBA - NOVO ALEIXO",
+        "cep": "69099015",
+        "latitude": -3.04683468,
+        "longitude": -59.94615945,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF L 14",
+        "cnes": "2015110",
+        "endereco": "RUA FLORES DA CUNHA - TANCREDO NEVES",
+        "cep": "69087082",
+        "latitude": -3.05491972,
+        "longitude": -59.94964944,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 09",
+        "cnes": "2015129",
+        "endereco": "RUA CAIAPO - NOVO ALEIXO",
+        "cep": "69098298",
+        "latitude": -3.05804014,
+        "longitude": -59.95993157,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF L 01",
+        "cnes": "2015137",
+        "endereco": "RUA ALARICO FURTADO - JORGE TEIXEIRA",
+        "cep": "69088301",
+        "latitude": -3.01790356,
+        "longitude": -59.92793591,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF L 03",
+        "cnes": "2015153",
+        "endereco": "RUA PROF BRASILINA PEDROSA - TANCREDO NEVES",
+        "cep": "69087032",
+        "latitude": -3.05803035,
+        "longitude": -59.94326223,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF L 04",
+        "cnes": "2015161",
+        "endereco": "RUA PIROFILITA - TANCREDO NEVES",
+        "cep": "69087500",
+        "latitude": -3.04830841,
+        "longitude": -59.93934957,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF L 08",
+        "cnes": "2015188",
+        "endereco": "RUA PEDERNEIRAS - ZUMBI DOS PALMARES",
+        "cep": "69084050",
+        "latitude": -3.08271027,
+        "longitude": -59.94916236,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF L 06",
+        "cnes": "2015196",
+        "endereco": "RUA TOPAZIO - TANCREDO NEVES",
+        "cep": "69087058",
+        "latitude": -3.05500935,
+        "longitude": -59.93477031,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF L 07",
+        "cnes": "2015218",
+        "endereco": "RUA BARREIRINHA - SAO JOSE OPERARIO",
+        "cep": "69086390",
+        "latitude": -3.0661029,
+        "longitude": -59.93406773,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF L 09",
+        "cnes": "2015226",
+        "endereco": "RUA IGARAPE BEIJA FLOR - ARMANDO MENDES",
+        "cep": "69089247",
+        "latitude": -3.09441218,
+        "longitude": -59.94251363,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF L 10",
+        "cnes": "2015234",
+        "endereco": "AVENIDA RIO XEROA - ARMANDO MENDES",
+        "cep": "69089070",
+        "latitude": -3.08410271,
+        "longitude": -59.94399854,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF DR JOSE AMAZONAS PALHANO",
+        "cnes": "2015285",
+        "endereco": "RUA ANTONIO MATIAS - SAO JOSE OPERARIO",
+        "cep": "69085010",
+        "latitude": -3.0692447,
+        "longitude": -59.95247351,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "SPA PONTA NEGRA",
+        "cnes": "2015293",
+        "endereco": "PCA DA PRAIA DA PONTA NEGRA - PONTA NEGRA",
+        "cep": "69037000",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF VILA DA PRATA",
+        "cnes": "2015307",
+        "endereco": "RUA PROMECIO - VILA DA PRATA",
+        "cep": "69030510",
+        "latitude": -3.11100752,
+        "longitude": -60.04443203,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF LEONOR DE FREITAS",
+        "cnes": "2015315",
+        "endereco": "AVENIDA BRASIL - COMPENSA",
+        "cep": "69036110",
+        "latitude": -3.09773113,
+        "longitude": -60.05653137,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF MANSOUR BULBOL",
+        "cnes": "2015323",
+        "endereco": "AVENIDA DESEMBARGADOR JOAO MACHADO - ALVORADA",
+        "cep": "69043000",
+        "latitude": -3.07349562,
+        "longitude": -60.03395911,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF GUILHERME ALEXANDRE",
+        "cnes": "2015404",
+        "endereco": "RUA NOVA REPUBLICA - COLONIA ANTONIO ALEI",
+        "cep": "69008030",
+        "latitude": -3.08452408,
+        "longitude": -59.89538366,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF DR ANTONIO REIS",
+        "cnes": "2015420",
+        "endereco": "RUA ESCANDINAVIA - SAO LAZARO",
+        "cep": "69073524",
+        "latitude": -3.13722811,
+        "longitude": -59.99481625,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF LAGO DO ALEIXO",
+        "cnes": "2015439",
+        "endereco": "RUA RAOUL FOLLEREAU - COLONIA ANTONIO ALEI",
+        "cep": "69008320",
+        "latitude": -3.087461,
+        "longitude": -59.880582,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF DRA LUIZA DO CARMO RIBEIRO FERNANDES",
+        "cnes": "2015447",
+        "endereco": "AVENIDA MINISTRO MARIO ANDREAZZA - MAUAZINHO",
+        "cep": "69075240",
+        "latitude": -3.133647,
+        "longitude": -59.940394,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF GEBES DE MELO MEDEIROS FILHO",
+        "cnes": "2015455",
+        "endereco": "RUA PIRARUCU - JORGE TEIXEIRA",
+        "cep": "69088765",
+        "latitude": -3.03622527,
+        "longitude": -59.9333328,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF LINDALVA DAMASCENO",
+        "cnes": "2015463",
+        "endereco": "AVENIDA DO TURISMO - TARUMA",
+        "cep": "69021625",
+        "latitude": -2.98547061,
+        "longitude": -60.05129042,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF O 20",
+        "cnes": "2015471",
+        "endereco": "BECO DARCY VARGAS - COMPENSA",
+        "cep": "69030032",
+        "latitude": -3.10602425,
+        "longitude": -60.05132297,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF O 21",
+        "cnes": "2015498",
+        "endereco": "BECO ARARAJUBA - COMPENSA",
+        "cep": "69030095",
+        "latitude": -3.10108655,
+        "longitude": -60.05075597,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF O 23",
+        "cnes": "2015528",
+        "endereco": "RUA TEOTONIO VILELA - COMPENSA",
+        "cep": "69035550",
+        "latitude": -3.10571619,
+        "longitude": -60.0620735,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF O 25",
+        "cnes": "2015544",
+        "endereco": "RUA AMBROSIO AIRES - SAO JORGE",
+        "cep": "69033210",
+        "latitude": -3.10589848,
+        "longitude": -60.02989384,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF O 26",
+        "cnes": "2015552",
+        "endereco": "RUA OLENKA DE MENEZES - SAO JORGE",
+        "cep": "69033660",
+        "latitude": -3.11293398,
+        "longitude": -60.03927722,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "UBS O 29",
+        "cnes": "2015587",
+        "endereco": "RUA VEIGA MIRANDA - SANTO ANTONIO",
+        "cep": "69029340",
+        "latitude": -3.11452541,
+        "longitude": -60.04470207,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "USF O 30",
+        "cnes": "2015595",
+        "endereco": "RUA SAO MIGUEL - SANTO ANTONIO",
+        "cep": "69029550",
+        "latitude": -3.11147753,
+        "longitude": -60.04998278,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF O 33",
+        "cnes": "2015625",
+        "endereco": "RUA NARCISOS - GLORIA",
+        "cep": "69027510",
+        "latitude": -3.12448261,
+        "longitude": -60.03566108,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF O 34",
+        "cnes": "2015633",
+        "endereco": "RUA 5 DE JUNHO - GLORIA",
+        "cep": "69027610",
+        "latitude": -3.12066631,
+        "longitude": -60.03465336,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF O 37",
+        "cnes": "2015676",
+        "endereco": "RUA MARECHAL RONDON - ALVORADA",
+        "cep": "69043371",
+        "latitude": -3.07552132,
+        "longitude": -60.03490376,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF O 38",
+        "cnes": "2015684",
+        "endereco": "BECO PERO LOPES - DOM PEDRO I",
+        "cep": "69042690",
+        "latitude": -3.08176098,
+        "longitude": -60.04391803,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF O 03",
+        "cnes": "2015692",
+        "endereco": "RUA AMOR AGARRADINHO - ALVORADA",
+        "cep": "69048382",
+        "latitude": -3.06378292,
+        "longitude": -60.03428266,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF O 04",
+        "cnes": "2015706",
+        "endereco": "RUA SARRACENIA - REDENCAO",
+        "cep": "69047501",
+        "latitude": -3.05545343,
+        "longitude": -60.04622888,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "UBS O 05",
+        "cnes": "2015714",
+        "endereco": "RUA JASMIM IMPERADOR - REDENCAO",
+        "cep": "69047560",
+        "latitude": -3.05029865,
+        "longitude": -60.04619267,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS O 06",
+        "cnes": "2015722",
+        "endereco": "RUA ANTURIO AMARELO - REDENCAO",
+        "cep": "69047185",
+        "latitude": -3.05644865,
+        "longitude": -60.03463326,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "USF O 07",
+        "cnes": "2015730",
+        "endereco": "RUA JOSE ALDO DA S OLIVEIRA - ALVORADA",
+        "cep": "69043154",
+        "latitude": -3.08038387,
+        "longitude": -60.04327655,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "UBS O 08",
+        "cnes": "2015749",
+        "endereco": "RUA DOUTOR GENTIL BITTECOURT - ALVORADA",
+        "cep": "69042120",
+        "latitude": -3.07472479,
+        "longitude": -60.05209511,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS O 09",
+        "cnes": "2015757",
+        "endereco": "RUA ITIRUCU - ALVORADA",
+        "cep": "69042073",
+        "latitude": -3.07819567,
+        "longitude": -60.05632281,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "USF O 10",
+        "cnes": "2015765",
+        "endereco": "RUA DA INDEPENDENCIA - NOVA ESPERANCA",
+        "cep": "69037545",
+        "latitude": -3.07986452,
+        "longitude": -60.0605229,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF O 11",
+        "cnes": "2015773",
+        "endereco": "RUA OSWALDO BARBOSA - NOVA ESPERANCA",
+        "cep": "69037530",
+        "latitude": -3.08755613,
+        "longitude": -60.05695038,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF O 17",
+        "cnes": "2015854",
+        "endereco": "RUA ZEFERINO BRASIL - COMPENSA",
+        "cep": "69035320",
+        "latitude": -3.11030106,
+        "longitude": -60.06486262,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF O 18",
+        "cnes": "2015862",
+        "endereco": "RUA VITOR MEIRELLES - COMPENSA",
+        "cep": "69035801",
+        "latitude": -3.09898753,
+        "longitude": -60.0673179,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF S 06",
+        "cnes": "2015889",
+        "endereco": "RUA DA LEGIAO - PRESIDENTE VARGAS",
+        "cep": "69025170",
+        "latitude": -3.1203994,
+        "longitude": -60.0290404,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF S 27",
+        "cnes": "2015935",
+        "endereco": "RUA SALTO SANTIAGO - RAIZ",
+        "cep": "69068270",
+        "latitude": -3.12449228,
+        "longitude": -59.99975632,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF S 33",
+        "cnes": "2015951",
+        "endereco": "RUA EMILE ZOLA - JAPIIM",
+        "cep": "69077150",
+        "latitude": -3.11611796,
+        "longitude": -59.98665761,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF S 29",
+        "cnes": "2015986",
+        "endereco": "AVENIDA FERNANDO PESSOA - JAPIIM",
+        "cep": "69076790",
+        "latitude": -3.11950914,
+        "longitude": -59.97931651,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF S 37",
+        "cnes": "2015994",
+        "endereco": "RUA BENTO BRASIL - PETROPOLIS",
+        "cep": "69063430",
+        "latitude": -3.11578341,
+        "longitude": -59.99298206,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF S 44",
+        "cnes": "2016044",
+        "endereco": "RUA DONA RAQUEL SOUZA - PETROPOLIS",
+        "cep": "69063590",
+        "latitude": -3.11021265,
+        "longitude": -59.9966256,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF S 02",
+        "cnes": "2016052",
+        "endereco": "RUA BARAO DE MONTE ALTO - FLORES",
+        "cep": "69028060",
+        "latitude": -3.04897932,
+        "longitude": -60.00157346,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF RURAL NOSSA SENHORA AUXILIADORA",
+        "cnes": "2016079",
+        "endereco": "COMUNIDADE CUEIRAS BR 174 KM 15 - ZONA RURAL",
+        "cep": "69048992",
+        "latitude": -2.82803964,
+        "longitude": -60.02941898,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF RURAL NOSSA SENHORA DE FATIMA",
+        "cnes": "2016109",
+        "endereco": "COMUNIDADE NOSSA SRA DE FATIMA - ZONA RURAL",
+        "cep": "69001019",
+        "latitude": -3.02017614,
+        "longitude": -60.16530274,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF RURAL NOSSA SENHORA DO LIVRAMENTO",
+        "cnes": "2016117",
+        "endereco": "COMUNIDADE NOSSA SRA DO LIVRAMENTO - ZONA RURAL",
+        "cep": "69001019",
+        "latitude": -3.027204,
+        "longitude": -60.179747,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF PETROPOLIS",
+        "cnes": "2016184",
+        "endereco": "RUA DELFIM DE SOUZA - PETROPOLIS",
+        "cep": "69063460",
+        "latitude": -3.12069401,
+        "longitude": -59.99301801,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF ARMANDO MENDES",
+        "cnes": "2016273",
+        "endereco": "AVENIDA FRANCISCO QUEIROZ - CIDADE NOVA",
+        "cep": "69090741",
+        "latitude": -3.02344,
+        "longitude": -60.000932,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "CENTRO DE ATENCAO INTEGRAL A SAUDE CAIS",
+        "cnes": "2016400",
+        "endereco": "AVENIDA GENERAL RODRIGO OCTAVIO JORDAO RAMOS - COROADO",
+        "cep": "69077000",
+        "latitude": -3.099292,
+        "longitude": -59.9741935,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF DR LUIZ MONTENEGRO",
+        "cnes": "2016702",
+        "endereco": "RUA DR EXPEDITO TEODORO - NOSSA SENHORA DAS GR",
+        "cep": "69053415",
+        "latitude": -3.11243805,
+        "longitude": -60.02182423,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF O 16",
+        "cnes": "2016737",
+        "endereco": "RUA TEOTONIO VILELA - COMPENSA",
+        "cep": "69035550",
+        "latitude": -3.10571619,
+        "longitude": -60.0620735,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF O 19",
+        "cnes": "2016745",
+        "endereco": "RUA JAGUANAI - COMPENSA",
+        "cep": "69035420",
+        "latitude": -3.11171221,
+        "longitude": -60.05845733,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF S 43",
+        "cnes": "2016753",
+        "endereco": "RUA CAMPOS DO JORDAO - PETROPOLIS",
+        "cep": "69067250",
+        "latitude": -3.10039142,
+        "longitude": -59.99132685,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF DR JOSE AVELINO PEREIRA",
+        "cnes": "2017059",
+        "endereco": "RUA CRAVINHO - JORGE TEIXEIRA",
+        "cep": "69088464",
+        "latitude": -3.03287927,
+        "longitude": -59.92382391,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF DR JOSE RAIMUNDO FRANCO DE SA",
+        "cnes": "2017067",
+        "endereco": "RUA VIRGILIO FERREIRA - NOVA ESPERANCA",
+        "cep": "69037585",
+        "latitude": -3.08172417,
+        "longitude": -60.05699831,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF JOAO NOGUEIRA DA MATTA",
+        "cnes": "2017075",
+        "endereco": "RUA MANDAGUARI - ZUMBI DOS PALMARES",
+        "cep": "69084160",
+        "latitude": -3.08138975,
+        "longitude": -59.94552801,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 30",
+        "cnes": "2017091",
+        "endereco": "RUA SINAGOGA - COLONIA TERRA NOVA",
+        "cep": "69093645",
+        "latitude": -3.0104812,
+        "longitude": -60.00808612,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "CENTRO DE SAUDE LUIZ MONTENEGROSEMSA",
+        "cnes": "2017903",
+        "endereco": "RUA RECIFE - PARQUE 10",
+        "cep": "69057000",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 37",
+        "cnes": "2019469",
+        "endereco": "RUA JOAQUIM MARTINS SANTANA - NOVO ALEIXO",
+        "cep": "69099068",
+        "latitude": -3.03963591,
+        "longitude": -59.94277742,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF ENFERMEIRA IVONE LIMA DOS SANTOS",
+        "cnes": "3027163",
+        "endereco": "RUA LUIZ CORRENTE - COROADO",
+        "cep": "69082701",
+        "latitude": -3.08233132,
+        "longitude": -59.97327186,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF ENFERMEIRA ANNA BARRETO PEREIRA",
+        "cnes": "3027171",
+        "endereco": "AVENIDA AUTAZ MIRIM - JORGE TEIXEIRA",
+        "cep": "69088245",
+        "latitude": -3.02350181,
+        "longitude": -59.93330591,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "AMBULATORIO DA CASA DR FAJARDO",
+        "cnes": "3334740",
+        "endereco": "AV JOAQUIM NABUCO - CENTRO",
+        "cep": "69005080",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF RURAL SAO PEDRO",
+        "cnes": "3808807",
+        "endereco": "COMUNIDADE BOM JESUS AM 010 KM 25 E ADJACENCIAS - ZONA RURAL",
+        "cep": "69099899",
+        "latitude": -2.859644,
+        "longitude": -59.941571,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF RURAL CONS ADA RODRIGUES VIANA",
+        "cnes": "3809706",
+        "endereco": "COMUNIDADE NOVA CANAA BR 174 - ZONA RURAL",
+        "cep": "69099899",
+        "latitude": -2.617232,
+        "longitude": -60.035369,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF RURAL PAU ROSA",
+        "cnes": "3809757",
+        "endereco": "ENTRADA DO KM 21 BR 174 RAMAL DO PAU ROSA - ZONA RURAL",
+        "cep": "69099899",
+        "latitude": -2.77359022,
+        "longitude": -60.13427424,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF MARIA IDA MENTONI",
+        "cnes": "4004388",
+        "endereco": "RUA AJURICABA - SAO JORGE",
+        "cep": "69033090",
+        "latitude": -3.10873633,
+        "longitude": -60.04239142,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 38",
+        "cnes": "4004418",
+        "endereco": "RUA MORRO CANARANAS - CIDADE NOVA",
+        "cep": "69097220",
+        "latitude": -3.02066354,
+        "longitude": -59.96201991,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF PREFEITO AMAZONINO MENDES",
+        "cnes": "4361601",
+        "endereco": "AVENIDA ESPERANCA - LAGO AZUL",
+        "cep": "69018600",
+        "latitude": -2.96718707,
+        "longitude": -59.99108988,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF PARQUE DAS TRIBOS",
+        "cnes": "4444892",
+        "endereco": "RUA DAS ESTRELAS - TARUMA ACU",
+        "cep": "69022494",
+        "latitude": -2.98813851,
+        "longitude": -60.07200498,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF BENEDITO BATISTA DE ALMEIDA",
+        "cnes": "4478312",
+        "endereco": "RUA WALDEMAR BAIA - SAO FRANCISCO",
+        "cep": "69063190",
+        "latitude": -3.1097133,
+        "longitude": -60.0006001,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF PREFEITO FRANK ABRAHIM LIMA",
+        "cnes": "4636511",
+        "endereco": "ABRAHAM BENZION - NOVO ALEIXO",
+        "cep": "69098125",
+        "latitude": -3.0609042,
+        "longitude": -59.9750643,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF PREFEITO MANOEL HENRIQUES RIBEIRO",
+        "cnes": "4687310",
+        "endereco": "RUA CACHOEIRA SANTA RITA - CIDADE DE DEUS",
+        "cep": "69099158",
+        "latitude": -3.02208842,
+        "longitude": -59.93588823,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF ROSA PEREIRA DE ALMEIDA",
+        "cnes": "4858670",
+        "endereco": "RUA DONA MIMI - MORRO DA LIBERDADE",
+        "cep": "69074760",
+        "latitude": -3.13545296,
+        "longitude": -60.00001722,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF DR AGNALDO GOMES DA COSTA",
+        "cnes": "4962753",
+        "endereco": "RIO PIRATUCU - SAO JOSE OPERARIO",
+        "cep": "69085293",
+        "latitude": -3.06357774,
+        "longitude": -59.9616027,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "MAIS NOVA ASSISTENCIA EM SAUDE",
+        "cnes": "4964012",
+        "endereco": "COMANDANTE PAULO VARELLA - DA PAZ",
+        "cep": "69048000",
+        "latitude": -3.05818745,
+        "longitude": -60.03228301,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF SILVIO SANTOS",
+        "cnes": "5004896",
+        "endereco": "RUA VINTE E TRES DE DEZEMBRO - COMPENSA",
+        "cep": "69035550",
+        "latitude": -3.10601968,
+        "longitude": -60.0622752,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 48",
+        "cnes": "5046149",
+        "endereco": "AVENIDA LIRIO DO AMAZONAS - LAGO AZUL",
+        "cep": "69019600",
+        "latitude": -2.9474748,
+        "longitude": -60.0287598,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF SANTO ANTONIO",
+        "cnes": "5388376",
+        "endereco": "RUA LAURO BITTENCOURT - SANTO ANTONIO",
+        "cep": "69029060",
+        "latitude": -3.1158911,
+        "longitude": -60.0418143,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF WALID ABDEL AZIZ",
+        "cnes": "5538777",
+        "endereco": "AVENIDA JOSE MOACIR TEBERGA DE TOLEDO - PLANALTO",
+        "cep": "69044235",
+        "latitude": -3.06249315,
+        "longitude": -60.06624287,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF DR SILAS DE OLIVEIRA SANTOS",
+        "cnes": "5613094",
+        "endereco": "RUA GUAPORE - GILBERTO MESTRINHO",
+        "cep": "69086531",
+        "latitude": -3.07490479,
+        "longitude": -59.93166549,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "UBS UPP",
+        "cnes": "5665795",
+        "endereco": "ESTRADA DO PURAQUEQUARA KM 08 - PURAQUEQUARA",
+        "cep": "69050060",
+        "latitude": -3.07709663,
+        "longitude": -59.88778996,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "USF ENFERMEIRA JOSEPHINA DE MELLO",
+        "cnes": "5882664",
+        "endereco": "RUA PORTO MARISCO - JORGE TEIXEIRA",
+        "cep": "69088754",
+        "latitude": -3.04003324,
+        "longitude": -59.93269319,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF O 22",
+        "cnes": "5949424",
+        "endereco": "RUA PACOBAIBA - COMPENSA",
+        "cep": "69036160",
+        "latitude": -3.10102275,
+        "longitude": -60.06004007,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF L 05",
+        "cnes": "6352383",
+        "endereco": "AVENIDA BATRUN - TANCREDO NEVES",
+        "cep": "69087641",
+        "latitude": -3.05466611,
+        "longitude": -59.94198499,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF RURAL EPHIGENIO SALLES",
+        "cnes": "6355226",
+        "endereco": "RODOVIA DEPUTADO VITAL DE MENDONCA AM 010 KM41 - ZONA RURAL",
+        "cep": "69099899",
+        "latitude": -2.814566,
+        "longitude": -59.93569,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 46",
+        "cnes": "6767281",
+        "endereco": "RUA LAGO MERON - COLONIA TERRA NOVA",
+        "cep": "69015358",
+        "latitude": -3.00616714,
+        "longitude": -60.02727337,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 47",
+        "cnes": "6795196",
+        "endereco": "RUA DALIA BRANCA - COLONIA TERRA NOVA",
+        "cep": "69015271",
+        "latitude": -3.00797602,
+        "longitude": -60.01841289,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF O 40",
+        "cnes": "6810322",
+        "endereco": "RUA TEOTONIO VILELA - COMPENSA",
+        "cep": "69035550",
+        "latitude": -3.10571619,
+        "longitude": -60.0620735,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF O 45",
+        "cnes": "6825613",
+        "endereco": "AVENIDA PRAIA DO FUTURO - TARUMA",
+        "cep": "69041400",
+        "latitude": -3.00135995,
+        "longitude": -60.0446555,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 02",
+        "cnes": "6905579",
+        "endereco": "RUA DOS CURIOS - CIDADE DE DEUS",
+        "cep": "69099387",
+        "latitude": -3.0199139,
+        "longitude": -59.9540949,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 50",
+        "cnes": "6925243",
+        "endereco": "RUA VASCO DA ATAIDE - CIDADE NOVA",
+        "cep": "69090312",
+        "latitude": -3.03843456,
+        "longitude": -59.98792694,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 21",
+        "cnes": "7035470",
+        "endereco": "RUA ICO - NOVO ALEIXO",
+        "cep": "69099724",
+        "latitude": -3.04358851,
+        "longitude": -59.9557041,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 52",
+        "cnes": "7096372",
+        "endereco": "RUA CHADE - NOVA CIDADE",
+        "cep": "69097327",
+        "latitude": -3.00240502,
+        "longitude": -59.97098896,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 53",
+        "cnes": "7096380",
+        "endereco": "RUA JAZIRA - NOVA CIDADE",
+        "cep": "69097525",
+        "latitude": -2.99032318,
+        "longitude": -59.98278214,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF O 46",
+        "cnes": "7163282",
+        "endereco": "RUA RAIMUNDO MAIA - TARUMA",
+        "cep": "69021115",
+        "latitude": -2.99640505,
+        "longitude": -60.03545709,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 55",
+        "cnes": "7172133",
+        "endereco": "RUA FREIS CAPUCHINHOS - NOVA CIDADE",
+        "cep": "69017321",
+        "latitude": -2.98261816,
+        "longitude": -59.98493212,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 49",
+        "cnes": "7207786",
+        "endereco": "TRAVESSA SERRA DA LUZ - COLONIA TERRA NOVA",
+        "cep": "69015647",
+        "latitude": -3.00416875,
+        "longitude": -60.01602903,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 54",
+        "cnes": "7212186",
+        "endereco": "RUA FREI JOSE DE LEONISSA - NOVA CIDADE",
+        "cep": "69017020",
+        "latitude": -2.9813914,
+        "longitude": -59.9888478,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 56",
+        "cnes": "7212194",
+        "endereco": "AVENIDA ACACIA NEGRA - LAGO AZUL",
+        "cep": "69018442",
+        "latitude": -2.96823907,
+        "longitude": -60.00846359,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF L 46",
+        "cnes": "7238177",
+        "endereco": "RUA ITAPOAMA - ZUMBI DOS PALMARES",
+        "cep": "69084442",
+        "latitude": -3.07304264,
+        "longitude": -59.94574434,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 51",
+        "cnes": "7400357",
+        "endereco": "RUA LIRIO DAS INDIAS - NOVO ALEIXO",
+        "cep": "69098362",
+        "latitude": -3.06021083,
+        "longitude": -59.96756001,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF L 45",
+        "cnes": "7416628",
+        "endereco": "RUA EDMUNDO SOARES - SAO JOSE OPERARIO",
+        "cep": "69086011",
+        "latitude": -3.06136784,
+        "longitude": -59.95259979,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF L 44",
+        "cnes": "7476108",
+        "endereco": "RUA MANDUIRANA - MAUAZINHO",
+        "cep": "69075305",
+        "latitude": -3.11672229,
+        "longitude": -59.94051524,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF O 48",
+        "cnes": "7476116",
+        "endereco": "AVENIDA SAPUCAIA - TARUMA",
+        "cep": "69041260",
+        "latitude": -3.01202898,
+        "longitude": -60.04382503,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 59",
+        "cnes": "7500637",
+        "endereco": "RUA DOM JESUS IRINEU - SANTA ETELVINA",
+        "cep": "69059634",
+        "latitude": -2.98322416,
+        "longitude": -60.00347134,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF DR JOSE FIGLIUOLO",
+        "cnes": "7594372",
+        "endereco": "RUA RIO MAICURU - LAGO AZUL",
+        "cep": "69018562",
+        "latitude": -2.9686602,
+        "longitude": -59.9961719,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 57",
+        "cnes": "7622686",
+        "endereco": "RUA OTONIEL ALENCAR - COLONIA TERRA NOVA",
+        "cep": "69015613",
+        "latitude": -3.00194413,
+        "longitude": -60.01063175,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF N 58",
+        "cnes": "7622694",
+        "endereco": "RUA CAPIBARIBE - NOVO ALEIXO",
+        "cep": "69098032",
+        "latitude": -3.05124892,
+        "longitude": -59.97373141,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "UBS L 49",
+        "cnes": "7675275",
+        "endereco": "RUA LICURI - DISTRITO INDUSTRIAL",
+        "cep": "69007750",
+        "latitude": -3.04755425,
+        "longitude": -59.89354311,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "USF L 47",
+        "cnes": "7726988",
+        "endereco": "RUA GASPAR DE MADRE DEUS - JORGE TEIXEIRA",
+        "cep": "69088599",
+        "latitude": -3.00839956,
+        "longitude": -59.9392978,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "SESI DEPARTAMENTO REGIONAL DO ESTADO DO AMAZONAS",
+        "cnes": "7729715",
+        "endereco": "GETULIO VARGAS - CENTRO",
+        "cep": "69020011",
+        "latitude": -3.12541373,
+        "longitude": -60.02042949,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF NILTON LINS",
+        "cnes": "7740905",
+        "endereco": "RUA INGLATERRA - FLORES",
+        "cep": "69028220",
+        "latitude": -3.0545953,
+        "longitude": -60.00564859,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "CENTRO SOCIOEDUCATIVO ASSISTENTE SOCIAL DAGMAR FEITOZA",
+        "cnes": "7788592",
+        "endereco": "RUA VIVALDO LIMA - ALVORADA I",
+        "cep": "69043660",
+        "latitude": -3.0784976,
+        "longitude": -60.0349155,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "CENTRO SOCIOEDUCATIVO DE INTERNACAO FEMININA",
+        "cnes": "7788606",
+        "endereco": "TRAV A - ALVORADA",
+        "cep": "69043040",
+        "latitude": -3.0639652,
+        "longitude": -60.0421324,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "CENTRO SOCIOEDUCATIVO SENADOR RAIMUNDO PARENTE",
+        "cnes": "7788614",
+        "endereco": "RUA 157 - CIDADE NOVA",
+        "cep": "69097127",
+        "latitude": -3.03025094,
+        "longitude": -59.96921539,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "CENTRO SOCIOEDUCATIVO SEMILIBERDADE MASCULINO",
+        "cnes": "7788622",
+        "endereco": "AV CONSTANTINO NERY - CHAPADA",
+        "cep": "69010160",
+        "latitude": -3.08437501,
+        "longitude": -60.05206163,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "UNIDADE DE INTERNACAO PROVISORIA",
+        "cnes": "7788630",
+        "endereco": "AV DESEMBARGADOR JOAO MACHADO - ALVORADA",
+        "cep": "69044000",
+        "latitude": -3.07442793,
+        "longitude": -60.0300048,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "USF FATIMA ANDRADE",
+        "cnes": "7847866",
+        "endereco": "RUA INHAPIM - NOVO ALEIXO",
+        "cep": "69099270",
+        "latitude": -3.04002534,
+        "longitude": -59.9547417,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "CENTRO DE DETENCAO FEMININO CDF",
+        "cnes": "9718877",
+        "endereco": "RODOVIA BR 174 - KM 08",
+        "cep": "69048990",
+        "latitude": -2.9079283,
+        "longitude": -60.03291255,
+        "tipo": "Outro"
+      },
+      {
+        "nome": "UBS COMPAJ",
+        "cnes": "9721274",
+        "endereco": "RODOVIA BR 174 - KM 08",
+        "cep": "69048990",
+        "latitude": -2.9066011,
+        "longitude": -60.02330919,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS IPAT",
+        "cnes": "9721290",
+        "endereco": "RODOVIA BR 174 - KM 08",
+        "cep": "69048990",
+        "latitude": -2.9059027,
+        "longitude": -60.0330478,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS CDPM II",
+        "cnes": "9721304",
+        "endereco": "RODOVIA BR 174 - KM 8",
+        "cep": "69048990",
+        "latitude": -2.90447908,
+        "longitude": -60.02438779,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS ANNA BARRETO PEREIRA",
+        "cnes": "9783229",
+        "endereco": "AVENIDA AUTAZ MIRIM - JORGE TEIXEIRA",
+        "cep": "69088245",
+        "latitude": -3.0566738,
+        "longitude": -59.9476456,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS DR ANTONIO REIS",
+        "cnes": "9783245",
+        "endereco": "RUA ESCANDINAVA - SAO LAZARO",
+        "cep": "69073524",
+        "latitude": -3.0552486,
+        "longitude": -59.9287252,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS CASTELO BRANCO",
+        "cnes": "9783253",
+        "endereco": "RUA DO COMERCIO - PARQUE 10 DE NOVEMBR",
+        "cep": "69055000",
+        "latitude": -3.0552486,
+        "longitude": -59.9287252,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS DR ANTONIO COMTE TELLES",
+        "cnes": "9783342",
+        "endereco": "RUA BARREIRINHA - SAO JOSE OPERARIO",
+        "cep": "69086390",
+        "latitude": -3.0700769,
+        "longitude": -59.9247625,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS DR DJALMA BATISTA",
+        "cnes": "9783369",
+        "endereco": "RUA TEOTONIO VILELA - COMPENSA",
+        "cep": "69035550",
+        "latitude": -3.1069269,
+        "longitude": -60.0616214,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS DR RAIMUNDO FRANCO DE SA",
+        "cnes": "9783377",
+        "endereco": "RUA VIRGILIO FERREIRA - NOVA ESPERANCA",
+        "cep": "69037585",
+        "latitude": -3.0797272,
+        "longitude": -60.0572565,
+        "tipo": "UBS"
+      },
+      {
+        "nome": "UBS DR JOSE ANTONIO DA SILVA",
+        "cnes": "9783385",
+        "endereco": "RUA GRUMIXAVA - MONTE DAS OLIVEIRAS",
+        "cep": "69092500",
+        "latitude": -3.102,
+        "longitude": -60.025,
+        "tipo": "UBS"
+      }
+    ]
+  }
+}

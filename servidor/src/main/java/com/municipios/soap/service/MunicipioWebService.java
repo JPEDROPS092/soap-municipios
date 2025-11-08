@@ -58,4 +58,17 @@ public interface MunicipioWebService {
             @WebParam(name = "municipioId") int municipioId,
             @WebParam(name = "municipioNome") String municipioNome
     );
+
+    /**
+     * Lista estabelecimentos separados por tipo (UBS e Outros)
+     *
+     * @param municipioId   ID do município
+     * @param municipioNome Nome do município
+     * @return Estabelecimentos separados por tipo
+     */
+    @WebMethod
+    EstabelecimentosPorTipo listarEstabelecimentosPorTipo(
+            @WebParam(name = "municipioId") int municipioId,
+            @WebParam(name = "municipioNome") String municipioNome
+    );
 }

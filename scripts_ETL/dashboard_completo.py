@@ -106,7 +106,7 @@ def listar_ubs_municipio(municipio_id, municipio_nome):
     xml = fazer_requisicao_soap('listarUBSMunicipio', {
         'municipioId': municipio_id,
         'municipioNome': municipio_nome
-    })
+    }) 
     
     if not xml:
         return None
@@ -122,19 +122,40 @@ def listar_ubs_municipio(municipio_id, municipio_nome):
         'totalUbs': int(ret.find('totalUbs').text or 0),
         'totalMedicos': int(ret.find('totalMedicos').text or 0),
         'totalEnfermeiros': int(ret.find('totalEnfermeiros').text or 0),
-        'ubs': []
+        'ubs': [],
+        'totalEstabelecimentos': 0,
+        'totalSomenteUbs': 0,
+        'totalNaoUbs': 0
     }
     
     # CORREÇÃO: A estrutura XML retorna <listaUbs> diretamente, sem <item>
+    todos_estabelecimentos = []
     for item in ret.findall('listaUbs'):
-        dados['ubs'].append({
-            'nome': item.find('nome').text or '',
+        nome = item.find('nome').text or ''
+        estabelecimento = {
+            'nome': nome,
             'cnes': item.find('cnes').text or '',
             'endereco': item.find('endereco').text or '',
             'cep': item.find('cep').text or '',
             'latitude': float(item.find('latitude').text or 0),
-            'longitude': float(item.find('longitude').text or 0)
-        })
+            'longitude': float(item.find('longitude').text or 0),
+            'tipo': ''
+        }
+        
+        # Verificar se é UBS pelo nome
+        nome_upper = nome.upper()
+        if 'UBS' in nome_upper or 'UNIDADE BASICA' in nome_upper or 'UNIDADE BÁSICA' in nome_upper:
+            estabelecimento['tipo'] = 'UBS'
+            dados['totalSomenteUbs'] += 1
+            dados['ubs'].append(estabelecimento)
+        else:
+            estabelecimento['tipo'] = 'Outro'
+            dados['totalNaoUbs'] += 1
+        
+        todos_estabelecimentos.append(estabelecimento)
+    
+    dados['totalEstabelecimentos'] = len(todos_estabelecimentos)
+    dados['todosEstabelecimentos'] = todos_estabelecimentos
     
     return dados
 
@@ -178,14 +199,14 @@ def criar_dashboard_completo(municipio_id, municipio_nome, uf):
         rows=3, cols=2,
         subplot_titles=(
             '👥 Pirâmide Populacional',
-            '🏥 Recursos de Saúde',
+            '🏥 Tipos de Estabelecimentos',
             '📊 Distribuição por Faixa Etária',
             '👨‍⚕️ Profissionais de Saúde',
-            '🗺️ Mapa de UBS',
-            '📈 Indicadores Principais'
+            '🗺️ Mapa de Estabelecimentos (UBS 🔴 | Outros 🔵)',
+            '📈 Recursos de Saúde'
         ),
         specs=[
-            [{'type': 'bar'}, {'type': 'bar'}],
+            [{'type': 'bar'}, {'type': 'pie'}],
             [{'type': 'pie'}, {'type': 'pie'}],
             [{'type': 'scattermapbox', 'colspan': 2}, None]
         ],
@@ -221,15 +242,15 @@ def criar_dashboard_completo(municipio_id, municipio_nome, uf):
         row=1, col=1
     )
     
-    # 2. Recursos de Saúde (UBS, Médicos, Enfermeiros)
+    # 2. Tipos de Estabelecimentos (UBS vs Outros)
     fig.add_trace(
-        go.Bar(
-            x=['UBS', 'Médicos', 'Enfermeiros'],
-            y=[dados_ubs['totalUbs'], dados_ubs['totalMedicos'], dados_ubs['totalEnfermeiros']],
-            marker_color=['#2ca02c', '#d62728', '#9467bd'],
-            text=[dados_ubs['totalUbs'], dados_ubs['totalMedicos'], dados_ubs['totalEnfermeiros']],
-            textposition='auto',
-            showlegend=False
+        go.Pie(
+            labels=['UBS', 'Outros Estabelecimentos'],
+            values=[dados_ubs['totalSomenteUbs'], dados_ubs['totalNaoUbs']],
+            marker_colors=['#2ca02c', '#ff7f0e'],
+            hole=0.4,
+            textinfo='label+value+percent',
+            showlegend=True
         ),
         row=1, col=2
     )
@@ -267,34 +288,69 @@ def criar_dashboard_completo(municipio_id, municipio_nome, uf):
             row=2, col=2
         )
     
-    # 5. Mapa de UBS
-    if dados_ubs['ubs']:
-        df_ubs = pd.DataFrame(dados_ubs['ubs'])
-        df_ubs = df_ubs[(df_ubs['latitude'] != 0) & (df_ubs['longitude'] != 0)]
+    # 5. Mapa de Estabelecimentos (UBS e Outros)
+    if dados_ubs['todosEstabelecimentos']:
+        df_todos = pd.DataFrame(dados_ubs['todosEstabelecimentos'])
+        df_todos = df_todos[(df_todos['latitude'] != 0) & (df_todos['longitude'] != 0)]
         
-        if not df_ubs.empty:
-            fig.add_trace(
-                go.Scattermapbox(
-                    lat=df_ubs['latitude'],
-                    lon=df_ubs['longitude'],
-                    mode='markers',
-                    marker=go.scattermapbox.Marker(
-                        size=12,
-                        color='#e74c3c',
-                        opacity=0.8
-                    ),
-                    text=df_ubs['nome'],
-                    hovertemplate='<b>%{text}</b><br>' +
-                                  'Endereço: ' + df_ubs['endereco'] + '<br>' +
-                                  'CNES: ' + df_ubs['cnes'] + '<br>' +
-                                  '<extra></extra>',
-                    showlegend=False
-                ),
-                row=3, col=1
-            )
+        if not df_todos.empty:
+            # Separar UBS e Outros
+            df_ubs_mapa = df_todos[df_todos['tipo'] == 'UBS']
+            df_outros_mapa = df_todos[df_todos['tipo'] == 'Outro']
             
-            center_lat = df_ubs['latitude'].mean()
-            center_lon = df_ubs['longitude'].mean()
+            # Adicionar UBS (marcadores vermelhos)
+            if not df_ubs_mapa.empty:
+                fig.add_trace(
+                    go.Scattermapbox(
+                        lat=df_ubs_mapa['latitude'],
+                        lon=df_ubs_mapa['longitude'],
+                        mode='markers',
+                        marker=go.scattermapbox.Marker(
+                            size=12,
+                            color='#e74c3c',
+                            opacity=0.8,
+                            symbol='circle'
+                        ),
+                        text=df_ubs_mapa['nome'],
+                        name='UBS',
+                        hovertemplate='<b>🏥 UBS</b><br>' +
+                                      '<b>%{text}</b><br>' +
+                                      'Endereço: ' + df_ubs_mapa['endereco'] + '<br>' +
+                                      'CNES: ' + df_ubs_mapa['cnes'] + '<br>' +
+                                      '<extra></extra>',
+                        showlegend=True
+                    ),
+                    row=3, col=1
+                )
+            
+            # Adicionar Outros Estabelecimentos (marcadores azuis)
+            if not df_outros_mapa.empty:
+                fig.add_trace(
+                    go.Scattermapbox(
+                        lat=df_outros_mapa['latitude'],
+                        lon=df_outros_mapa['longitude'],
+                        mode='markers',
+                        marker=go.scattermapbox.Marker(
+                            size=10,
+                            color='#3498db',
+                            opacity=0.7,
+                            symbol='star'
+                        ),
+                        text=df_outros_mapa['nome'],
+                        name='Outros Estabelecimentos',
+                        hovertemplate='<b>🏨 Outro Estabelecimento</b><br>' +
+                                      '<b>%{text}</b><br>' +
+                                      'Endereço: ' + df_outros_mapa['endereco'] + '<br>' +
+                                      'CNES: ' + df_outros_mapa['cnes'] + '<br>' +
+                                      '<extra></extra>',
+                        showlegend=True
+                    ),
+                    row=3, col=1
+                )
+            
+            # Calcular centro do mapa
+            center_lat = df_todos['latitude'].mean()
+            center_lon = df_todos['longitude'].mean()
             
             fig.update_layout(
                 mapbox=dict(
@@ -307,7 +363,9 @@ def criar_dashboard_completo(municipio_id, municipio_nome, uf):
     # Layout geral
     fig.update_layout(
         title_text=f"<b>Dashboard Completo de Saúde - {municipio_nome}/{uf}</b><br>" +
-                   f"<sub>População Total: {dados_pop['populacaoTotal']:,} habitantes | " +
+                   f"<sub>População: {dados_pop['populacaoTotal']:,} hab | " +
+                   f"UBS: {dados_ubs['totalSomenteUbs']} | " +
+                   f"Outros Estabelecimentos: {dados_ubs['totalNaoUbs']} | " +
                    f"Atualizado em {datetime.now().strftime('%d/%m/%Y %H:%M')}</sub>",
         title_x=0.5,
         title_font_size=22,
@@ -327,7 +385,7 @@ def criar_dashboard_completo(municipio_id, municipio_nome, uf):
 def gerar_relatorio_texto(municipio_nome, uf, dados_pop, dados_ubs):
     """Gera relatório em texto"""
     
-    razao_ubs_pop = (dados_ubs['totalUbs'] / dados_pop['populacaoTotal'] * 10000) if dados_pop['populacaoTotal'] > 0 else 0
+    razao_ubs_pop = (dados_ubs['totalSomenteUbs'] / dados_pop['populacaoTotal'] * 10000) if dados_pop['populacaoTotal'] > 0 else 0
     razao_medico_pop = (dados_ubs['totalMedicos'] / dados_pop['populacaoTotal'] * 1000) if dados_pop['populacaoTotal'] > 0 else 0
     razao_enf_pop = (dados_ubs['totalEnfermeiros'] / dados_pop['populacaoTotal'] * 1000) if dados_pop['populacaoTotal'] > 0 else 0
     
@@ -355,8 +413,11 @@ def gerar_relatorio_texto(municipio_nome, uf, dados_pop, dados_ubs):
 
 🏥 INFRAESTRUTURA DE SAÚDE
 {'─'*80}
-    Total de UBS:                 {dados_ubs['totalUbs']:>15}
-    UBS com Geolocalização:       {ubs_com_geo:>15} ({ubs_com_geo/dados_ubs['totalUbs']*100 if dados_ubs['totalUbs'] > 0 else 0:.1f}%)
+    Total de Estabelecimentos:    {dados_ubs['totalEstabelecimentos']:>15}
+    └─ Somente UBS:               {dados_ubs['totalSomenteUbs']:>15} ({dados_ubs['totalSomenteUbs']/dados_ubs['totalEstabelecimentos']*100 if dados_ubs['totalEstabelecimentos'] > 0 else 0:.1f}%)
+    └─ Outros Tipos:              {dados_ubs['totalNaoUbs']:>15} ({dados_ubs['totalNaoUbs']/dados_ubs['totalEstabelecimentos']*100 if dados_ubs['totalEstabelecimentos'] > 0 else 0:.1f}%)
+    
+    UBS com Geolocalização:       {ubs_com_geo:>15} ({ubs_com_geo/dados_ubs['totalSomenteUbs']*100 if dados_ubs['totalSomenteUbs'] > 0 else 0:.1f}%)
     
     Total de Médicos:             {dados_ubs['totalMedicos']:>15}
     Total de Enfermeiros:         {dados_ubs['totalEnfermeiros']:>15}
@@ -368,9 +429,9 @@ def gerar_relatorio_texto(municipio_nome, uf, dados_pop, dados_ubs):
     Médicos por 1.000 hab:        {razao_medico_pop:>15.2f}
     Enfermeiros por 1.000 hab:    {razao_enf_pop:>15.2f}
     
-    Médicos por UBS:              {dados_ubs['totalMedicos']/dados_ubs['totalUbs'] if dados_ubs['totalUbs'] > 0 else 0:>15.2f}
-    Enfermeiros por UBS:          {dados_ubs['totalEnfermeiros']/dados_ubs['totalUbs'] if dados_ubs['totalUbs'] > 0 else 0:>15.2f}
-    Profissionais por UBS:        {(dados_ubs['totalMedicos']+dados_ubs['totalEnfermeiros'])/dados_ubs['totalUbs'] if dados_ubs['totalUbs'] > 0 else 0:>15.2f}
+    Médicos por UBS:              {dados_ubs['totalMedicos']/dados_ubs['totalSomenteUbs'] if dados_ubs['totalSomenteUbs'] > 0 else 0:>15.2f}
+    Enfermeiros por UBS:          {dados_ubs['totalEnfermeiros']/dados_ubs['totalSomenteUbs'] if dados_ubs['totalSomenteUbs'] > 0 else 0:>15.2f}
+    Profissionais por UBS:        {(dados_ubs['totalMedicos']+dados_ubs['totalEnfermeiros'])/dados_ubs['totalSomenteUbs'] if dados_ubs['totalSomenteUbs'] > 0 else 0:>15.2f}
 
 {'='*80}
 Relatório gerado em: {datetime.now().strftime('%d/%m/%Y às %H:%M:%S')}

@@ -1,0 +1,46 @@
+
+================================================================================
+                RELATÓRIO COMPLETO DE SAÚDE MUNICIPAL
+                      MANAUS - AM
+================================================================================
+
+📊 DADOS DEMOGRÁFICOS
+────────────────────────────────────────────────────────────────────────────────
+    População Total:                    2,060,744 habitantes
+    
+    Por Gênero:
+      • Homens:                           996,198 (48.3%)
+      • Mulheres:                       1,064,546 (51.7%)
+    
+    Por Faixa Etária:
+      • 0-10 anos:                        225,213 (10.9%)
+      • 11-20 anos:                       192,615 (9.3%)
+      • 21-30 anos:                       245,695 (11.9%)
+      • 40+ anos:                       1,397,221 (67.8%)
+
+🏥 INFRAESTRUTURA DE SAÚDE
+────────────────────────────────────────────────────────────────────────────────
+    Total de Estabelecimentos:                258
+    └─ Somente UBS:                            28 (10.9%)
+    └─ Outros Tipos:                          230 (89.1%)
+    
+    UBS com Geolocalização:                    26 (92.9%)
+    
+    Total de Médicos:                         546
+    Total de Enfermeiros:                     471
+    Total de Profissionais:                  1017
+
+📈 INDICADORES DE COBERTURA
+────────────────────────────────────────────────────────────────────────────────
+    UBS por 10.000 hab:                      0.14
+    Médicos por 1.000 hab:                   0.26
+    Enfermeiros por 1.000 hab:               0.23
+    
+    Médicos por UBS:                        19.50
+    Enfermeiros por UBS:                    16.82
+    Profissionais por UBS:                  36.32
+
+================================================================================
+Relatório gerado em: 07/11/2025 às 19:16:26
+================================================================================
+    
